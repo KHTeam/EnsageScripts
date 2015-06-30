@@ -879,7 +879,6 @@ function Load()
 			script:RegisterEvent(EVENT_KEY, Key)
 			script:UnregisterEvent(Load)
 		end
-	end	
 end
 
 function Close()
