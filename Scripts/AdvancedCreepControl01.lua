@@ -861,9 +861,6 @@ end
 function Load()
 	if PlayingGame() then
 		local me = entityList:GetMyHero()
-		if not me then 
-			script:Disable()
-		else
 			statusText.visible = false
 			myhero = nil
 			HUD = nil
